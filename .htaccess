@@ -1,0 +1,8 @@
+Options All -Indexes 
+
+RewriteEngine On 
+
+# URL REWRITING
+RewriteBase /gestion-des-employes/
+
+RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1
